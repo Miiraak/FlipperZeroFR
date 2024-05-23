@@ -1,32 +1,34 @@
-# BadUSB File Format
-## Command syntax
+# Format fichier BadUSB 
+BadUBB utillise une version améliorée de la syntax Duckyscript.<br>
+Elle est compatible avec les commandes classique de RubberDucky 1.0 et ajoute des commandes et fonctionnalités supplémentaires.
 
-BadUsb app uses extended Duckyscript syntax. It is compatible with classic USB Rubber Ducky 1.0 scripts but provides some additional commands and features, such as custom USB ID, ALT+Numpad input method, SYSRQ command, and more functional keys.
-## Script file format
-- BadUsb app can execute only text scripts from .txt files,
-- no compilation is required.
-- Both \n and \r\n line endings are supported.
-- Empty lines are allowed.
-- You can use spaces or tabs for line indentation.
+## Quelque règles
+- Ne peux executer seulement des scripts depuis des fichier .txt
+- Aucune compilation requise.
+- \n et \r\n sont supporté en fin de ligne.
+- Les lignes vides sont acceptées. 
+- les espaces et tab peuvent être utilisé pour l'indentation.
 
-## Command set
-### Comment line
-Just a single comment line. The interpreter will ignore all text after the REM command.
-| Command |	Parameters      | Notes          |
+
+## Commandes
+### Ligne de commentaire
+L'interpeteur ignore tout texte après la commande REM
+| Commande |	Paramètres      | Notes          |
 | :------ |:---------------:| --------------:|
-| REM 	  | Comment text    |                |	
+| REM 	  | Text    |                |	
 
 
 ### Delay
 Pause script execution by a defined time.
-| Command            | Parameters         | Notes                                |
+Met en pause le script en fonction du temps défini.
+| Commande            | Paramètres         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-| DELAY  	           | Delay value in ms  |	Single delay                         |
-| DEFAULT_DELAY 	   | Delay value in ms 	| Add delay before every next command  |
-| DEFAULTDELAY 	     | Delay value in ms 	| Same as DEFAULT_DELAY                |
+| DELAY  	           | Délais en ms |	Délais simple                         |
+| DEFAULT_DELAY 	   | Délais en ms | Ajoute le délais à toute vos prochaine commandes. |
+| DEFAULTDELAY 	     | Délais en ms | Similaire à DEFAULT_DELAY                |
 
-### Special keys
-| Command            | Notes            |
+### Touche clavier
+| Commande            | Notes            |
 | :----------------- | ----------------:| 
 | DOWNARROW / DOWN 	 |                  |  
 | LEFTARROW / LEFT 	 |                  | 
@@ -53,9 +55,9 @@ Pause script execution by a defined time.
 | APP 	             | Same as MENU     |
 | Fx                 | F1-F12 keys      |
 
-### Modifier keys
+### Touche de modification
 Can be combined with a special key command or a single character.
-| Command        |	Notes         |
+| Commande        |	Notes         |
 | :------------- | --------------:|
 | CONTROL / CTRL |                |	   
 | SHIFT 	       |                |  
@@ -68,81 +70,80 @@ Can be combined with a special key command or a single character.
 | GUI-SHIFT 	   | WIN+SHIFT      |   
 | GUI-CTRL 	     | WIN+CTRL       |   
 
-### Key hold and release
+### Appuis et relâchement de touche
 Up to 5 keys can be hold simultaneously.
-| Command            | Parameters         | Notes                                |
+Jusqu'a 5 touche peuvent être pressée simultanément
+| Commande            | Paramètre        | Notes                                |
 | :----------------- |:--------------------------------:| ------------------------------------------:|
-| HOLD 	             | Special key or single character  | Press and hold key until RELEASE command   |
-| RELEASE            | Special key or single character  | Release key                                |
+| HOLD 	             | Touche spéciale/clavier | Appuie et maintient la touche jusqu'à la commande RELEASE |
+| RELEASE            | Touche spéciale/clavier | Relâche la touche |                               |
 
 ### String
-| Command            | Parameters     | Notes                                      |
+| Commande            | Paramètre     | Notes                                      |
 | :----------------- |:--------------:| ------------------------------------------:|
-| STRING             | Text string    | Print text string                          |
-| STRINGLN 	         | Text string 	  | Print text string and press enter after it |
-
-String delay   
-### Delay between keypresses.
-| Command            | Parameters         | Notes                                |
+| STRING             | Texte    | Affiche/Ecrit le texte                          |
+| STRINGLN 	         | Texte 	  | Affiche/Ecrit le texte puis presse ENTER |
+  
+### Délais entre chaque appuis
+| Commande            | Paramètre         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-STRING_DELAY 	Delay value in ms 	Applied once to next appearing STRING command
-STRINGDELAY 	Delay value in ms 	Same as STRING_DELAY
-DEFAULT_STRING_DELAY 	Delay value in ms 	Apply to every appearing STRING command
-DEFAULTSTRINGDELAY 	Delay value in ms 	Same as DEFAULT_STRING_DELAY
+| STRING_DELAY         | Délais en ms | Ajoute un délais à la prochaine commande STRING |
+| STRINGDELAY          | Délais en ms | Même que STRING_DELAY |
+| DEFAULT_STRING_DELAY | Délais en ms | Ajoute un délais à toute les commandes STRING |
+| DEFAULTSTRINGDELAY   | Délais en ms | Même que : DEFAULT_STRING_DELAY |
 
-### Repeat
-| Command            | Parameters         | Notes                                |
+### Répétition
+| Commande            | Paramètre         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-REPEAT 	Number of additional repeats 	Repeat previous command
-ALT+Numpad input
+| REPEAT | Nombre | Nombre de répétition de la commande précédente |
 
-On Windows and some Linux systems, you can print characters by holding ALT key and entering its code on Numpad.
-| Command            | Parameters         | Notes                                |
+### ALT+Pad Numérique
+Sur certains OS vous pouvez entrer des caractères spéciaux en maintenant "ALT" et en tappant un nombre au pad numérique. 
+| Commande            | Paramètres         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-ALTCHAR 	Character code 	Print single character
-ALTSTRING 	Text string 	Print text string using ALT+Numpad method
-ALTCODE 	Text string 	Same as ALTSTRING, presents in some Duckyscript implementations
-SysRq
+| ALTCHAR   | numero du caratère | Affiche le caratère spécial. |
+| ALTSTRING | Texte | Affiche du texte en utilisant la méthode ALT+NumPad. |
+| ALTCODE   | Texte | Même que : ALTSTRING |
 
-Send SysRq command
-| Command            | Parameters         | Notes                                |
+### Commande SysRq
+| Commande            | Paramètres        | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-SYSRQ 	Single character 	
-Media keys
+| SYSRQ | Touche |  | 	
 
+### Commandes Media
 Some Media/Consumer Control keys can be pressed with "MEDIA" command
+Certaines commande Media peuvent être utilisée avec la commande MEDIA.
 | Command            | Parameters         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-MEDIA 	Media key, see list below 	
-Key name 	Notes
-POWER 	
-REBOOT 	
-SLEEP 	
-LOGOFF 	
-EXIT 	
-HOME 	
-BACK 	
-FORWARD 	
-REFRESH 	
-SNAPSHOT 	Take photo in a camera app
-PLAY 	
-PAUSE 	
-PLAY_PAUSE 	
-NEXT_TRACK 	
-PREV_TRACK 	
-STOP 	
-EJECT 	
-MUTE 	
-VOLUME_UP 	
-VOLUME_DOWN 	
-FN 	Fn/Globe key on Mac keyboard
-BRIGHT_UP 	Increase display brightness
-BRIGHT_DOWN 	Decrease display brightness
-Fn/Globe key commands (Mac/iPad)
-Command 	Parameters 	Notes
-GLOBE 	Special key or single character 	
-Wait for button press
+| MEDIA |	Clé | voir la liste ci dessous | 	
 
+| Clé | Effet |
+|:----|------:|
+| POWER | Allume | 	
+| REBOOT |	Redémarre
+| SLEEP |	Mettre en veille
+| LOGOFF |	Se déconnecter
+| EXIT 	| Quitter
+| HOME 	| Menu 
+| BACK 	| Retour
+| FORWARD 	| Suivant
+| REFRESH 	| Rafraîchir
+| SNAPSHOT |	Prendre un photo (besoin d'un périphérique camera.)
+| PLAY 	| Lancer
+| PAUSE 	| Pause
+| PLAY_PAUSE 	| 
+| NEXT_TRACK |	Piste suivante
+| PREV_TRACK 	| Piste précédente
+| STOP 	| Stop
+| EJECT 	| Ejecter
+| MUTE 	| Muet
+| VOLUME_UP |	Volume +
+| VOLUME_DOWN 	| Volume -
+| FN | Touche Fn/Globe sur clavier MAC
+| BRIGHT_UP |	Augement la luminosité
+| BRIGHT_DOWN |	Baisse la luminosité
+
+## Wait
 Will wait indefinitely for a button to be pressed
 | Command            | Parameters         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
