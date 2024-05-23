@@ -19,7 +19,6 @@ L'interpeteur ignore tout texte après la commande REM
 
 
 ### Delay
-Pause script execution by a defined time.
 Met en pause le script en fonction du temps défini.
 | Commande            | Paramètres         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
@@ -71,7 +70,6 @@ Can be combined with a special key command or a single character.
 | GUI-CTRL 	     | WIN+CTRL       |   
 
 ### Appuis et relâchement de touche
-Up to 5 keys can be hold simultaneously.
 Jusqu'a 5 touche peuvent être pressée simultanément
 | Commande            | Paramètre        | Notes                                |
 | :----------------- |:--------------------------------:| ------------------------------------------:|
@@ -111,7 +109,6 @@ Sur certains OS vous pouvez entrer des caractères spéciaux en maintenant "ALT"
 | SYSRQ | Touche |  | 	
 
 ### Commandes Media
-Some Media/Consumer Control keys can be pressed with "MEDIA" command
 Certaines commande Media peuvent être utilisée avec la commande MEDIA.
 | Command            | Parameters         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
@@ -144,10 +141,10 @@ Certaines commande Media peuvent être utilisée avec la commande MEDIA.
 | BRIGHT_DOWN |	Baisse la luminosité
 
 ## Wait
-Will wait indefinitely for a button to be pressed
-| Command            | Parameters         | Notes                                |
+Attend indéfiniment qu'une touche soit pressée
+| Commande            | Paramètre         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-WAIT_FOR_BUTTON_PRESS 	None 	Will wait for the user to press a button to continue script execution
+| WAIT_FOR_BUTTON_PRESS |	None | Attend qu'une touche soit pressée pour continuer le script. | 
 USB device ID
 
 You can set the custom ID of the Flipper USB HID device. ID command should be in the first line of script, it is executed before script run.
