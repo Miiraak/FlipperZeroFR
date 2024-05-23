@@ -1,4 +1,4 @@
-# Liste des Allocation de fréquence
+# Liste des allocations de fréquences
 Liste non exhaustive des allocation de fréquence en Europe sur la base des fréquence d'analyse prédéfinie par le flipperZero.<br>
 Ne prend donc pas en compte les fréquences accèssible via un module GPIo.
 
