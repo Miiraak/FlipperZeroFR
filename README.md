@@ -38,7 +38,6 @@ La liste des firmware que j'ai pu trouver sur internet avec des explications ain
 Dans celui ci vous retrouverez tout les fichier non applicationnel utilisé par celle ci.<br>
 Fichier : Sub-GHz, Infrarouge, payloads, jamming etc...
 
-### !!! Attentions certain fichier présent ici peuvent être dangereux ou parfaitement illégal dans 99% des cas !!!
-### !!! Ne les utilisez que sur vos propres appareils ou avec l'autorisation de la/les personne,s concernée,s !!!
+### !!! Attentions certain fichier présent ici peuvent être dangereux ou parfaitement illégal dans 99% des cas. Ne les utilisez que sur vos propres appareils ou avec l'autorisation de la/les personne,s concernée,s !!!
 
 ---
