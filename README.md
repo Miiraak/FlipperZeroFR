@@ -1,4 +1,4 @@
-# FlipperThings
+# FlipperZero
 ###### Regroupement de liens, traductions, scripts etc.… pour FlipperZero
 
 J'ai beaucoup de choses à trier, supprimer tester avant de pouvoir vraiment ajouter des choses à ce repository.
