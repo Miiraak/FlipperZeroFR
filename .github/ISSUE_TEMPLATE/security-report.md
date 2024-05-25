@@ -1,5 +1,5 @@
 ---
-name: Security
+name: Security report
 about: Signal a security issue in the report
 title: ''
 labels: ''
