@@ -4,5 +4,5 @@ Je ne prend pas en charge les vulnérabilité liée aux application ou firmware.
 Je vous invite à aller voir leurs répository pour leurs signaler directement.
 
 Cependant, si vous en recontrez sur des fichiers ou App sous /MesTrucs,<br>
-signalez le moi sous **Issues** > **New Issue** > **Security report** 
+signalez le moi sous : **Issues** > **New Issue** > **Security report**<br> 
 J'essaierai de voir ce que je peux faire !
