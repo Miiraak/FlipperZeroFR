@@ -14,8 +14,8 @@ REM     - Compte avec droit administrateur, ce n'est pas un bypass...
 REM Description:
 REM     - Ouvre le GUI windows et tape powershell dans la recherche puis
 REM       l'ouvre en administrateur depuis le menu contextuel.
-REM       Ne permet pas de bypass l'admin, l'ouvre simplement, si l'user n'a pas de droit
-REM       Cela ne marchera pas.
+REM       Ne permet pas de bypass l'admin, l'ouvre simplement. 
+REM       Si l'user n'a pas de droit cela ne marchera pas.
 
 DELAY 1000
 GUI
