@@ -33,7 +33,7 @@ Contient aussi des fichier en liens direct avec le firmware comme les asset_pack
 - ### [Info / Doc / Wiki](https://github.com/Miiraak/FlipperThings/tree/main/Info-Doc-Wiki)
   - Wiki, documents et informations que j'ai pu récupérer ici et là sur internet rangé par types d'application, le tout traduit en francais pour vos beaux yeux.<br> Vous trouverez aussi les liens vers les wiki officiels pour de plus amples explications, je ne vais pas traduire l'intégralité de chaque wiki non plus, je suis pas suicidaire.
   
-- ### MesTrucs
+- ### [MesTrucs](https://github.com/Miiraak/FlipperZero/tree/main/MesTrucs)
   - Je placerai ici mes créations qui pourrai potentielement être intéréssante pour vous. Ou divers truc que j'aurai crée.
 
 - ### [Ressources](https://github.com/Miiraak/FlipperThings/tree/main/Ressources)
