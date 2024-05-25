@@ -1,6 +1,4 @@
 # Politique de sécurité
-
-## Reporting a Vulnerability
 ## Signaler une vulnérabilité
 Je ne prend pas en charge les vulnérabilité liée aux application ou firmware. Ils ne m'appartiennent pas.<br>
 Je vous invite à aller voir leurs répository pour leurs signaler directement.
