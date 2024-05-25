@@ -1,6 +1,6 @@
 REM ####################################################################################
 REM #                                                                                  |
-REM # Title        : Lunch PowerShell in admin mode, Windows 11                        |
+REM # Title        : Lunch CMD in admin mode, Windows 11                               |
 REM # Author       : Miiraak                                                           |
 REM # Version      : 1.0                                                               |
 REM # Category     : Execute                                                           |
