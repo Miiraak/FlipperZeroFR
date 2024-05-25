@@ -1,5 +1,5 @@
 # Format fichier BadUSB 
-BadUBB utillise une version améliorée de la syntax Duckyscript.<br>
+BadUSB utillise une version améliorée de la syntax Duckyscript.<br>
 Elle est compatible avec les commandes classique de RubberDucky 1.0 et ajoute des commandes et fonctionnalités supplémentaires.
 
 ## Quelque règles
