@@ -1,0 +1,33 @@
+REM ####################################################################################
+REM #                                                                                  |
+REM # Title        : Lunch PowerShell in admin mode, Windows 11                        |
+REM # Author       : Miiraak                                                           |
+REM # Version      : 1.0                                                               |
+REM # Category     : Execute                                                           |
+REM # Target       : Windows 11                                                        |
+REM #                                                                                  |
+REM ####################################################################################
+
+REM Requirements:
+REM     - Compte avec droit administrateur, ce n'est pas un bypass...
+
+REM Description:
+REM     - Ouvre le GUI windows et tape powershell dans la recherche puis
+REM       l'ouvre en administrateur depuis le menu contextuel.
+REM       Ne permet pas de bypass l'admin, l'ouvre simplement, si l'user n'a pas de droit
+REM       Cela ne marchera pas.
+
+DELAY 1000
+GUI
+DELAY 500
+STRING powershell
+DELAY 150
+RIGHT
+DELAY 150
+DOWN
+DELAY 150
+ENTER
+DELAY 500
+LEFT
+DELAY 100
+ENTER
