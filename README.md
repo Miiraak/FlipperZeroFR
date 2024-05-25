@@ -24,8 +24,9 @@ Je m'efforcerai cependant à vous fournir une traduction et des explications les
 - ### [Applications](https://github.com/Miiraak/FlipperZero/tree/main/Applications) :
   - Ici vous retrouverez les applications disponibles par Firmware sur le FlipperZero 
 
-- ### Firmware :
-La liste des firmware que j'ai pu trouver sur internet avec des explications ainsi que les liens de téléchargements.
+- ### [Firmware](https://github.com/Miiraak/FlipperZero/tree/main/Firmware) :
+La liste des firmware que j'ai pu trouver sur internet avec des explications ainsi que les liens de téléchargements.<br>
+Contient aussi des fichier en liens direct avec le firmware comme les data_pack. 
 
 - ### [Info / Doc / Wiki](https://github.com/Miiraak/FlipperThings/tree/main/Info-Doc-Wiki)
   - Wiki, documents et informations que j'ai pu récupérer ici et là sur internet rangé par types d'application, le tout traduit en francais pour vos beaux yeux.<br> Vous trouverez aussi les liens vers les wiki officiels pour de plus amples explications, je ne vais pas traduire l'intégralité de chaque wiki non plus, je suis pas suicidaire.
