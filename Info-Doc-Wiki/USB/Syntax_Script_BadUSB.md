@@ -1,9 +1,9 @@
 # Format fichier BadUSB 
-BadUSB utillise une version améliorée de la syntax Duckyscript.<br>
-Elle est compatible avec les commandes classique de RubberDucky 1.0 et ajoute des commandes et fonctionnalités supplémentaires.
+BadUSB utilise une version améliorée de la syntaxe Duckyscript.<br>
+Elle est compatible avec les commandes classiques de RubberDucky 1.0 et ajoute des commandes et fonctionnalités supplémentaires.
 
-## Quelque règles
-- Ne peux executer seulement des scripts depuis des fichier .txt
+## Quelques règles
+- Ne peux exécuter seulement des scripts depuis des fichiers .txt
 - Aucune compilation requise.
 - \n et \r\n sont supporté en fin de ligne.
 - Les lignes vides sont acceptées. 
@@ -12,10 +12,10 @@ Elle est compatible avec les commandes classique de RubberDucky 1.0 et ajoute de
 
 ## Commandes
 ### Ligne de commentaire
-L'interpeteur ignore tout texte après la commande REM
+L'interpréteur ignore tout texte après la commande REM
 | Commande |	Paramètres      | Notes          |
 | :------ |:---------------:| --------------:|
-| REM 	  | Text    |                |	
+| REM 	  | Texte    |                |	
 
 
 ### Delay
@@ -23,7 +23,7 @@ Met en pause le script en fonction du temps défini.
 | Commande            | Paramètres         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
 | DELAY  	           | Délais en ms |	Délais simple                         |
-| DEFAULT_DELAY 	   | Délais en ms | Ajoute le délais à toute vos prochaine commandes. |
+| DEFAULT_DELAY 	   | Délais en ms | Ajoute le délai à toute vos prochaines commandes. |
 | DEFAULTDELAY 	     | Délais en ms | Similaire à DEFAULT_DELAY                |
 
 ### Touche clavier
@@ -46,16 +46,16 @@ Met en pause le script en fonction du temps défini.
 | NUMLOCK 	         |                  |  
 | SCROLLLOCK 	       |                  |  
 | PRINTSCREEN 	     |                  |  
-| BREAK 	           | Pause/Break key  |
-| PAUSE 	           | Pause/Break key  |
+| BREAK 	           | Touche Pause/Break |
+| PAUSE 	           | Touche Pause/Break  |
 | SPACE 	           |                  |
 | TAB 	             |                  |
-| MENU 	             | Context menu key |
-| APP 	             | Same as MENU     |
-| Fx                 | F1-F12 keys      |
+| MENU 	             |Touche menu contextuel |
+| APP 	             | Même que MENU     |
+| Fx                 | Touches F1-F12      |
 
 ### Touche de modification
-Can be combined with a special key command or a single character.
+Peuvent être combinés à des touche spéciales ou des caractères simples
 | Commande        |	Notes         |
 | :------------- | --------------:|
 | CONTROL / CTRL |                |	   
@@ -82,12 +82,12 @@ Jusqu'a 5 touche peuvent être pressée simultanément
 | STRING             | Texte    | Affiche/Ecrit le texte                          |
 | STRINGLN 	         | Texte 	  | Affiche/Ecrit le texte puis presse ENTER |
   
-### Délais entre chaque appuis
+### Délais entre chaque appui
 | Commande            | Paramètre         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-| STRING_DELAY         | Délais en ms | Ajoute un délais à la prochaine commande STRING |
+| STRING_DELAY         | Délais en ms | Ajoute un délai à la prochaine commande STRING |
 | STRINGDELAY          | Délais en ms | Même que STRING_DELAY |
-| DEFAULT_STRING_DELAY | Délais en ms | Ajoute un délais à toute les commandes STRING |
+| DEFAULT_STRING_DELAY | Délais en ms | Ajoute un délai à toute les commandes STRING |
 | DEFAULTSTRINGDELAY   | Délais en ms | Même que : DEFAULT_STRING_DELAY |
 
 ### Répétition
@@ -99,7 +99,7 @@ Jusqu'a 5 touche peuvent être pressée simultanément
 Sur certains OS vous pouvez entrer des caractères spéciaux en maintenant "ALT" et en tappant un nombre au pad numérique. 
 | Commande            | Paramètres         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-| ALTCHAR   | numero du caratère | Affiche le caratère spécial. |
+| ALTCHAR   | numéro du caractère | Affiche le caractère spécial. |
 | ALTSTRING | Texte | Affiche du texte en utilisant la méthode ALT+NumPad. |
 | ALTCODE   | Texte | Même que : ALTSTRING |
 
@@ -109,10 +109,10 @@ Sur certains OS vous pouvez entrer des caractères spéciaux en maintenant "ALT"
 | SYSRQ | Touche |  | 	
 
 ### Commandes Media
-Certaines commande Media peuvent être utilisée avec la commande MEDIA.
-| Command            | Parameters         | Notes                                |
+Certaines commandes Media peuvent être utilisée avec la commande MEDIA.
+| Command            | Paramètres         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-| MEDIA |	Clé | voir la liste ci dessous | 	
+| MEDIA |	Clé | voir la liste ci-dessous | 	
 
 | Clé | Effet |
 |:----|------:|
@@ -125,7 +125,7 @@ Certaines commande Media peuvent être utilisée avec la commande MEDIA.
 | BACK 	| Retour
 | FORWARD 	| Suivant
 | REFRESH 	| Rafraîchir
-| SNAPSHOT |	Prendre un photo (besoin d'un périphérique camera.)
+| SNAPSHOT |	Prendre une photo (besoin d'un périphérique camera.)
 | PLAY 	| Lancer
 | PAUSE 	| Pause
 | PLAY_PAUSE 	| 
@@ -137,7 +137,7 @@ Certaines commande Media peuvent être utilisée avec la commande MEDIA.
 | VOLUME_UP |	Volume +
 | VOLUME_DOWN 	| Volume -
 | FN | Touche Fn/Globe sur clavier MAC
-| BRIGHT_UP |	Augement la luminosité
+| BRIGHT_UP |	Augmente la luminosité
 | BRIGHT_DOWN |	Baisse la luminosité
 
 ## Wait
@@ -151,6 +151,6 @@ Vous pouvez saisir l'ID d'un USB HID. Cette commande devra être la première li
 | Commande            | Paramètre         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
 | ID | VID:PID Manufacturer:Product |  | 	
-Example: ID 1234:abcd Samsung:Galaxy_s3
+Exemple: ID 1234:abcd Samsung:Galaxy_s3
 
-Le VID et PID sont des code hexadecimales et sont obligatoire. Le fabricant et le produit sont optionnels.
+Le VID et PID sont des code hexadécimales et sont obligatoire. Le fabricant et le produit sont optionnels.
