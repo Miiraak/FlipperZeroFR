@@ -144,14 +144,13 @@ Certaines commande Media peuvent être utilisée avec la commande MEDIA.
 Attend indéfiniment qu'une touche soit pressée
 | Commande            | Paramètre         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-| WAIT_FOR_BUTTON_PRESS |	None | Attend qu'une touche soit pressée pour continuer le script. | 
+| WAIT_FOR_BUTTON_PRESS |	Aucun | Attend qu'une touche soit pressée pour continuer le script. | 
 USB device ID
 
-You can set the custom ID of the Flipper USB HID device. ID command should be in the first line of script, it is executed before script run.
-| Command            | Parameters         | Notes                                |
+Vous pouvez saisir l'ID d'un USB HID. Cette commande devra être la première ligne de votre script.
+| Commande            | Paramètre         | Notes                                |
 | :----------------- |:------------------:| ------------------------------------:|
-ID 	VID:PID Manufacturer:Product 	
+| ID | VID:PID Manufacturer:Product |  | 	
+Example: ID 1234:abcd Samsung:Galaxy_s3
 
-Example: ID 1234:abcd Flipper Devices:Flipper Zero
-
-VID and PID are hex codes and are mandatory. Manufacturer and Product are text strings and are optional.
+Le VID et PID sont des code hexadecimales et sont obligatoire. Le fabricant et le produit sont optionnels.
