@@ -21,7 +21,7 @@ Je m'efforcerai cependant à vous fournir une traduction et des explications les
 ---
 
 ## Index :
-- ### Applications :
+- ### [Applications](https://github.com/Miiraak/FlipperZero/tree/main/Applications) :
   - Ici vous retrouverez les applications disponibles par Firmware sur le FlipperZero 
 
 - ### Firmware :
