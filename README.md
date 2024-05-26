@@ -12,15 +12,6 @@ Prenez en compte que je ne suis pas un pro, des erreurs vont se glisser ici et l
 Je m'efforcerai cependant à vous fournir une traduction et des explications les plus juste possibles, si vous remarquez quelque chose d'étrange ou qui vous semble incorrect, n'hésitez pas à me le signaler.
 
 ---
-   
-!!! IN WORK !!!
-- Tri des fichier locaux
-- Renommage des fichiers
-- Suppression des fichiers indésirables/Non fonctionnel
-- Suppression des fichiers double
-- Organisation de l'arborescence
-
----
 
 ## Index :
 <details>
@@ -79,5 +70,14 @@ Fichier : Sub-GHz, Infrarouge, payloads, jamming etc...
 
 
 ### !!! Attentions certain fichier présent ici peuvent être dangereux ou parfaitement illégal dans 99% des cas. Ne les utilisez que sur vos propres appareils ou avec l'autorisation de la/les personne,s concernée,s !!!
+
+---
+   
+!!! IN WORK !!!
+- Tri des fichier locaux
+- Renommage des fichiers
+- Suppression des fichiers indésirables/Non fonctionnel
+- Suppression des fichiers double
+- Organisation de l'arborescence
 
 ---
