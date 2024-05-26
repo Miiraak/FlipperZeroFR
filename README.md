@@ -23,23 +23,60 @@ Je m'efforcerai cependant à vous fournir une traduction et des explications les
 ---
 
 ## Index :
-- ### [Applications](https://github.com/Miiraak/FlipperZero/tree/main/Applications) :
-  - Ici vous retrouverez les applications disponibles par Firmware sur le FlipperZero 
+<details>
+  <summary><a href="Applications">Application</a></summary>
 
-- ### [Firmware](https://github.com/Miiraak/FlipperZero/tree/main/Firmware) :
-  - La liste des firmware que j'ai pu trouver sur internet avec des explications ainsi que les liens de téléchargements.<br>
-Contient aussi des fichier en liens direct avec le firmware comme les asset_pack. 
+  - [Exemples](https://github.com/Miiraak/FlipperZeroFR/tree/main/Applications/Exemples)
+  - [Xtreme-Firmware](https://github.com/Miiraak/FlipperZeroFR/tree/main/Applications/Xtreme-Firmware)
 
-- ### [Info / Doc / Wiki](https://github.com/Miiraak/FlipperThings/tree/main/Info-Doc-Wiki)
-  - Wiki, documents et informations que j'ai pu récupérer ici et là sur internet rangé par types d'application, le tout traduit en francais pour vos beaux yeux.<br> Vous trouverez aussi les liens vers les wiki officiels pour de plus amples explications, je ne vais pas traduire l'intégralité de chaque wiki non plus, je suis pas suicidaire.
-  
-- ### [MesTrucs](https://github.com/Miiraak/FlipperZero/tree/main/MesTrucs)
-  - Je placerai ici mes créations qui pourrai potentielement être intéréssante pour vous. Ou divers truc que j'aurai crée.
+</details> 
 
-- ### [Ressources](https://github.com/Miiraak/FlipperThings/tree/main/Ressources)
-  - Le dossier pour les gouverner tous !<br> 
+- Ici vous retrouverez les applications disponibles par Firmware sur le FlipperZero
+
+<details>
+  <summary><a href="Firmware">Firmware</a></summary>
+
+  - [Offical-Flipper-Zero-Firmware](https://github.com/Miiraak/FlipperZeroFR/tree/main/Firmware/Offical-Flipper-Zero-Firmware)
+  - [Xtreme-Firmware](https://github.com/Miiraak/FlipperZeroFR/tree/main/Firmware/Xtreme-Firmware)
+
+</details> 
+
+- La liste des firmware que j'ai pu trouver sur internet avec des explications ainsi que les liens de téléchargements.<br>
+Contient aussi des fichier en liens direct avec le firmware comme les asset_pack.
+
+<details>
+  <summary><a href="Info-Doc-Wiki">Info / Doc / Wiki</a></summary>
+
+  - [Sub-GHz](https://github.com/Miiraak/FlipperZeroFR/tree/main/Info-Doc-Wiki/Sub-GHz)
+  - [USB](https://github.com/Miiraak/FlipperZeroFR/tree/main/Info-Doc-Wiki/USB)
+
+</details> 
+
+- Wiki, documents et informations que j'ai pu récupérer ici et là sur internet rangé par types d'application, le tout traduit en francais pour vos beaux yeux.<br> Vous trouverez aussi les liens vers les wiki officiels pour de plus amples explications, je ne vais pas traduire l'intégralité de chaque wiki non plus, je suis pas suicidaire.
+
+<details>
+  <summary><a href="MesTrucs">MesTrucs</a></summary>
+
+  - [BadUSB](https://github.com/Miiraak/FlipperZeroFR/tree/main/MesTrucs/BadUSB)
+  - [Script](https://github.com/Miiraak/FlipperZeroFR/tree/main/MesTrucs/Script)
+
+</details> 
+
+- Je placerai ici mes créations qui pourrai potentielement être intéréssante pour vous. Ou divers truc que j'aurai crée.
+
+<details>
+  <summary><a href="Ressources">Ressources</a></summary>
+
+  - [Scripts](https://github.com/Miiraak/FlipperZeroFR/tree/main/Ressources/Scripts)
+  - [Sub-GHz](https://github.com/Miiraak/FlipperZeroFR/tree/main/Ressources/Sub-ghz)
+  - [lfrfid-fuzzer](https://github.com/Miiraak/FlipperZeroFR/tree/main/Ressources/lfrfid-fuzzer)
+
+</details> 
+
+- Le dossier pour les gouverner tous !<br> 
 Dans celui ci vous retrouverez tout les fichier non applicationnel utilisé par celle ci.<br>
 Fichier : Sub-GHz, Infrarouge, payloads, jamming etc...
+
 
 ### !!! Attentions certain fichier présent ici peuvent être dangereux ou parfaitement illégal dans 99% des cas. Ne les utilisez que sur vos propres appareils ou avec l'autorisation de la/les personne,s concernée,s !!!
 
