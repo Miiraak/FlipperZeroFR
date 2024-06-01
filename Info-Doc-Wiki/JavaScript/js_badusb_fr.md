@@ -119,9 +119,9 @@ badusb.println("Hello, world!");  // Entre "Hello, world!" et presse "ENTER"
 ```
 
 ---
-# Liste des nom de touche.
+## Liste des nom de touche.
 
-## Touches de modification
+### Touches de modification
 
 | Nom           |
 | ------------- |
@@ -130,7 +130,7 @@ badusb.println("Hello, world!");  // Entre "Hello, world!" et presse "ENTER"
 | ALT           |
 | GUI           |  
 
-## Touches spéciales
+### Touches spéciales
 
 | Nom                | Notes                    |
 | ------------------ | ------------------------ |
