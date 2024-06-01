@@ -85,35 +85,35 @@ Les mêmes que `press`
 
 Relâche toute les touche si appelée sans paramètres.
 
-#### Exemples:
+##### Exemples:
 ```js
 badusb.release(); // Relâche toutes les touches
 badusb.release("a"); // Relâche la touche "a"
 ```
 
 ---
-## print
+### print
 Entre une chaîne de caratères.
 
-### Paramètres
+#### Paramètres
 - Une chaîne de caratères
 - Délais entre chaque touche (optionnel)
 
-### Exemples:
+##### Exemples:
 ```js
 badusb.print("Hello, world!"); // Entre "Hello, world!"
 badusb.print("Hello, world!", 100); // Ajoute 100ms de délais entre chaque appuie de touche
 ```
 
 ---
-## println
+### println
 Les mêmes que `print` mais termine l'entrée avec un appuie sur la touche "ENTER".
 
-### Paramètres
+#### Paramètres
 - Une chaîe de caratères.
 - Délais entre chaque touche (optionnel)
 
-### Exemples:
+##### Exemples:
 ```js
 badusb.println("Hello, world!");  // Entre "Hello, world!" et presse "ENTER"
 ```
