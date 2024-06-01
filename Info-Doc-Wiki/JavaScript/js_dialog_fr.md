@@ -29,9 +29,9 @@ Dialogue plus complex avec des boutons configurables.
 Configurez l'objet avec les champs suivants :
 - header: texte de l'entête
 - text: texte de dialogue
-- button_left: nom du bouton de gauche (optionel)
-- button_right: nom du bouton de droite (optionel)
-- button_center: nom du bouton de centre (optionel)
+- button_left: nom du bouton de gauche (optionnel)
+- button_right: nom du bouton de droite (optionnel)
+- button_center: nom du bouton de centre (optionnel)
 
 #### Retourne
 Name of pressed button or empty string if the dialog was closed by back key press
