@@ -28,6 +28,7 @@ badusb.setup({ vid: 0xAAAA, pid: 0xBBBB });
 // Démarre le module BadUSB avec des valeures customisée pour vid, pid, le farbicant et le produit.
 badusb.setup({ vid: 0xAAAA, pid: 0xBBBB, mfr_name: "Flipper Devices", prod_name: "Flipper Zero" });
 ```
+---
 
 ### isConnected
 Renvoie l'état de la connexion USB.
@@ -41,6 +42,7 @@ if (badusb.isConnected()) {
 }
 ```
 
+---
 ### press
 Press and release a key.
 Appuie sur une touche.
@@ -60,6 +62,7 @@ badusb.press(98); // Presse la touche dont l'ID décimal est : 98
 badusb.press(0x47); // Presse la touche dont l'ID hexadécimale est : 0x41
 ```
 
+---
 ### hold
 Maintient une touche.<br>
 Peux maintenir jusqu'a 5 touches simultanément. (modificateurs exclus).
@@ -73,6 +76,7 @@ badusb.hold("a"); // Appuie et maintient la touche "a"
 badusb.hold("CTRL", "v"); // Appuie et maintient CTRL + "v" 
 ```
 
+---
 ### release
 Relâche une touche précédemment maintenue.
 
@@ -87,6 +91,7 @@ badusb.release(); // Relâche toutes les touches
 badusb.release("a"); // Relâche la touche "a"
 ```
 
+---
 ## print
 Entre une chaîne de caratères.
 
@@ -100,6 +105,7 @@ badusb.print("Hello, world!"); // Entre "Hello, world!"
 badusb.print("Hello, world!", 100); // Ajoute 100ms de délais entre chaque appuie de touche
 ```
 
+---
 ## println
 Les mêmes que `print` mais termine l'entrée avec un appuie sur la touche "ENTER".
 
@@ -112,6 +118,7 @@ Les mêmes que `print` mais termine l'entrée avec un appuie sur la touche "ENTE
 badusb.println("Hello, world!");  // Entre "Hello, world!" et presse "ENTER"
 ```
 
+---
 # Liste des nom de touche.
 
 ## Touches de modification
