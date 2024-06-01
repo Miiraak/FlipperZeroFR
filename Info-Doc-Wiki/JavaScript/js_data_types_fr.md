@@ -1,5 +1,5 @@
 # JavaScript : Data types
-Voici la liste des types de données utilisable par mJS
+## Voici la liste des types de données utilisable par mJS
 - string - sequence of single byte characters, no UTF8 support
 - nombre
 - booléenne
