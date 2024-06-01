@@ -125,25 +125,25 @@ badusb.println("Hello, world!");  // Entre "Hello, world!" et presse "ENTER"
 
 | Nom           |
 | ------------- |
-| CTRL          |            
-| SHIFT         |  
-| ALT           |
-| GUI           |  
+| `CTRL`        |            
+| `SHIFT`       |  
+| `ALT`         |
+| `GUI`         |  
 
 ### Touches spéciales
 
 | Nom                | Notes                    |
 | ------------------ | ------------------------ |
-| DOWN               | Flèche du Bas            |
-| LEFT               | Flèche de Gauche         |
-| RIGHT              | Flèche de Droite         |
-| UP                 | Flèche du Haut           |
-| ENTER              |                          |
-| DELETE             |                          |
-| BACKSPACE          |                          |
-| END                |                          |
-| HOME               |                          |
-| ESC                |                          |
+| `DOWN`             | Flèche du Bas            |
+| `LEFT`             | Flèche de Gauche         |
+| `RIGHT`            | Flèche de Droite         |
+| `UP`               | Flèche du Haut           |
+| `ENTER`            |                          |
+| `DELETE`           |                          |
+| `BACKSPACE`        |                          |
+| `END`              |                          |
+| `HOME`             |                          |
+| `ESC`              |                          |
 | INSERT             |                          |
 | PAGEUP             |                          |
 | PAGEDOWN           |                          |
