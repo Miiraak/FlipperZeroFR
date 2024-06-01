@@ -21,6 +21,7 @@ true si le bouton central à été pressé et false si c'est le boutton retour.
 dialog.message("Dialogue test", "Pressez OK !");
 ```
 
+---
 ### custom
 Dialogue plus complex avec des boutons configurables.
 
