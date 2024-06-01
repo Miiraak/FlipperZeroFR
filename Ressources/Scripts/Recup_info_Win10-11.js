@@ -40,7 +40,7 @@ for (let i = 0; i < script.length; i++) {
     command += script[i];
 }
 
-print("Temps : ~2min")
+print("Temps : ~ X min")
 print("Recherche de l'emplacement de stockage...")
 // Vérifie si l'emplacement du stockage existe.
 if (storage.exists(capacite)) {
