@@ -144,15 +144,15 @@ badusb.println("Hello, world!");  // Entre "Hello, world!" et presse "ENTER"
 | `END`              |                          |
 | `HOME`             |                          |
 | `ESC`              |                          |
-| INSERT             |                          |
-| PAGEUP             |                          |
-| PAGEDOWN           |                          |
-| CAPSLOCK           |                          |
-| NUMLOCK            |                          |
-| SCROLLLOCK         |                          |
-| PRINTSCREEN        |                          |
-| PAUSE              | Touche Pause/Break       |
-| SPACE              |                          |
-| TAB                |                          |
-| MENU               | Touche menu contextuel   |
-| Fx                 | Touche fonction F1 à F12 |
+| `INSERT`           |                          |
+| `PAGEUP`           |                          |
+| `PAGEDOWN`         |                          |
+| `CAPSLOCK`         |                          |
+| `NUMLOCK`          |                          |
+| `SCROLLLOCK`       |                          |
+| `PRINTSCREEN`      |                          |
+| `PAUSE`            | Touche Pause/Break       |
+| `SPACE`            |                          |
+| `TAB`              |                          |
+| `MENU`             | Touche menu contextuel   |
+| `Fx`               | Touche fonction F1 à F12 |
