@@ -44,7 +44,6 @@ if (badusb.isConnected()) {
 
 ---
 ### press
-Press and release a key.
 Appuie sur une touche.
 
 #### Paramètres
