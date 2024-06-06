@@ -72,8 +72,7 @@ Ne prend donc pas en compte les fréquences accèssible via un module GPIo.
 ###### FZ Preset: 418      
 | Allocation National | Utilisation Majeure: | CIV/MIL | Notes | Stratégie |
 |:--------------------|:--------------------:|:-------:|:-----:|:---------|
-| MOBILE except aeronautical mobile                     | PMR/PAMR primary                     | CIV        | 410 - 428 MHz PMR/PAMR, 380 - 470 MHz: Tuning range for PPDR<br>UWB Applications      | The frequencies for the digital
-technology are available         |
+| MOBILE except aeronautical mobile                     | PMR/PAMR primary                     | CIV        | 410 - 428 MHz PMR/PAMR, 380 - 470 MHz: Tuning range for PPDR<br>UWB Applications      | The frequencies for the digital technology are available         |
 
 ---
 
@@ -123,8 +122,7 @@ Land mobile                    | Amateur                    | CIV        | 380 -
 ###### FZ Preset: 440.17      
 | Allocation National | Utilisation Majeure: | CIV/MIL | Notes | Stratégie |
 |:--------------------|:--------------------:|:-------:|:-----:|:---------|
-| MOBILE except aeronautical mobile | 446.0-446.2 MHz PMR 446<br>449.8-449.9 MHz On site Paging     | CIV/MIL        | Civil use: PMR, PMR (analogue), PMR (digital)<br>446.0 - 446.2 MHz: Harmonised frequencies:PMR 446 analog and digital<br>449.8 - 449.9 MHz:
-On site Paging<br>380 - 470 MHz: Tuning range for PPDR<br>UWB Applications.      |          |
+| MOBILE except aeronautical mobile | 446.0-446.2 MHz PMR 446<br>449.8-449.9 MHz On site Paging     | CIV/MIL        | Civil use: PMR, PMR (analogue), PMR (digital)<br>446.0 - 446.2 MHz: Harmonised frequencies:PMR 446 analog and digital<br>449.8 - 449.9 MHz: On site Paging<br>380 - 470 MHz: Tuning range for PPDR<br>UWB Applications.      |          | 
 
 ---
 
@@ -147,38 +145,8 @@ On site Paging<br>380 - 470 MHz: Tuning range for PPDR<br>UWB Applications.     
 ## Range: 862 - 870 MHz  
 ###### FZ Preset: 868.35 / 868.4 / 868.8 / 868.95     
 | Allocation National | Utilisation Majeure: | CIV/MIL | Notes | Stratégie |
-|:--------------------|:--------------------:|:-------:|:-----:|:---------|
-| Mobile                    | 862 - 870 MHz SRD primary:
-Band A: 863-865 MHz.
-Band C: 865-868 MHz.
-Band B: 868-870 MHz
-870 - 873 MHz: SRD primary.
-873 - 876 MHz / 918 - 921 MHz:
-GSM-R extension band primary                     | CIV        | 862-863 MHz: Non-specific SRDs:
-RIR1008-43, 25 mW, ≤ 0.1% DC, BW max. 350
-kHz
-SRD A: 863-865 MHz
-Harmonised frequencies: Wireless audio applications:
-Radio microphones:
-Non-specific SRDs:
-RIR1008-44, 25 mW, ≤ 0.1% DC,
-864.8-865.0 MHz:
-Wireless audio applications:
-RIR1013-17,
-SRD 863-868 MHz
-Tracking, tracing and data acquisition:
-RIR1003-11, 25 mW, ≤ 2.8% DC,
-RIR1003-12: 25 mW, ≤ 10% DC for network
-access points only.
-SRD C: 865-868 MHz
-Harmonised frequencies: Annex4
-Tracking, tracing and data acquisition:
-RIR1003-09, 500 mW, ≤ 2.5% DC,
-RIR1003-10: 500 mW, ≤ 10% DC for network
-access points only.
-RFID: 865.6-867.6 MHz: 2 W,
-866.885-866.915 MHz:
-Detection of avalanche victims,      |          |
+|:--------------------|:--------------------:|:-------:|:-----:|:----------|
+|                     |                      |         |       |           |
 
 ---
 
