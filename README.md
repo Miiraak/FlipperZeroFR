@@ -62,6 +62,7 @@ Contient aussi des fichier en liens direct avec le firmware comme les asset_pack
   - [Scripts](https://github.com/Miiraak/FlipperZeroFR/tree/main/Ressources/Scripts)
   - [Sub-GHz](https://github.com/Miiraak/FlipperZeroFR/tree/main/Ressources/Sub-ghz)
   - [lfrfid-fuzzer](https://github.com/Miiraak/FlipperZeroFR/tree/main/Ressources/lfrfid-fuzzer)
+  - [NFC](https://github.com/Miiraak/FlipperZeroFR/tree/main/Ressources/NFC)
 
 </details> 
 
