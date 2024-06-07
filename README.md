@@ -22,7 +22,7 @@ Je m'efforcerai cependant à vous fournir une traduction et des explications les
 
 </details> 
 
-- Ici vous retrouverez les applications disponibles par Firmware sur le FlipperZero
+- Ici vous retrouverez les applications disponibles par Firmware sur le FlipperZero<br> _Déconseillé passez par les repos officiels !_
 
 <details>
   <summary><a href="Firmware">Firmware</a></summary>
