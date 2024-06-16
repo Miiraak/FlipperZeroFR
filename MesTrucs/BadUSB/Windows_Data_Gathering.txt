@@ -2,7 +2,7 @@ REM ############################################################################
 REM #                                                                                  |
 REM # Title        : Information gathering and export                                  |
 REM # Author       : Miiraak                                                           |
-REM # Version      : 1.0                                                               |
+REM # Version      : 3.0                                                               |
 REM # Category     : Execute                                                           |
 REM # Target       : Windows                                                           |
 REM #                                                                                  |
