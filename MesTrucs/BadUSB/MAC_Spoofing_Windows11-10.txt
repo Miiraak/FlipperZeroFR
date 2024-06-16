@@ -1,0 +1,47 @@
+REM ####################################################################################
+REM #                                                                                  |
+REM # Title        : MAC Spoofing Wi-fi                                                |
+REM # Author       : Miiraak                                                           |
+REM # Version      : 1.0                                                               |
+REM # Category     : GoodUSB                                                           |
+REM # Target       : Windows 11                                                        |
+REM #                                                                                  |
+REM ####################################################################################
+
+REM # Requirements:
+REM #    - Account with admin privileges
+
+REM # Description:
+REM #     - Open admin powershell then change the MAC Address. 
+REM #     - Wi-Fi card that support MAC modification
+
+REM # Open shell
+DELAY 1000
+GUI
+DELAY 500
+STRING powershell
+DELAY 150
+RIGHT
+DELAY 150
+DOWN
+DELAY 150
+ENTER
+DELAY 500
+LEFT
+DELAY 100
+ENTER
+DELAY 100
+
+REM # MAC changing
+STRING Start-Sleep -Seconds 2
+ENTER
+DELAY 500
+STRING Disable-NetAdapter -Name "Wi-Fi"
+ENTER
+DELAY 200
+STRING Set-NetAdapter -Name "Wi-Fi" -MacAddress "00-11-22-33-44-55"
+ENTER
+DELAY 200
+STRING Enable-NetAdapter -Name "Wi-Fi"
+ENTER
+DELAY 200

