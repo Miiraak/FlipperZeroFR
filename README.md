@@ -38,6 +38,7 @@ Contient aussi des fichier en liens direct avec le firmware comme les asset_pack
 <details>
   <summary><a href="Info-Doc-Wiki">Info / Doc / Wiki</a></summary>
 
+  - [Developpement](https://github.com/Miiraak/FlipperZeroFR/tree/main/Info-Doc-Wiki/Developpement)
   - [Sub-GHz](https://github.com/Miiraak/FlipperZeroFR/tree/main/Info-Doc-Wiki/Sub-GHz)
   - [USB](https://github.com/Miiraak/FlipperZeroFR/tree/main/Info-Doc-Wiki/USB)
   - [JavaScript](https://github.com/Miiraak/FlipperZeroFR/tree/main/Info-Doc-Wiki/JavaScript)

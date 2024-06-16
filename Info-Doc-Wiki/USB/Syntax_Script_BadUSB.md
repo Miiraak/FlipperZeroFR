@@ -31,7 +31,7 @@ Met en pause le script en fonction du temps défini.
 | :----------------- | ----------------:| 
 | DOWNARROW / DOWN 	 |                  |  
 | LEFTARROW / LEFT 	 |                  | 
-| RIGHTARROW / RIGHT |                  |   
+| RIGHTARROW / RIGHT |                  | 
 | UPARROW / UP 	     |                  |  
 | ENTER 	           |                  |
 | DELETE 	           |                  |   

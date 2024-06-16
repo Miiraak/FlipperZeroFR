@@ -7,7 +7,7 @@ Certaines sont utilisée pour du matériel spécifique comme le militaire ou mé
 
 Petite piqure de rappel fait ! Nous allons nous attaquer à la première partie de notre module.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MainMenuGlobalGHz.png">
 </p>
 
@@ -16,7 +16,7 @@ Petite piqure de rappel fait ! Nous allons nous attaquer à la première partie 
 ## Read :
 Lorsque vous lancer votre module SubGHz vous arrivez sur différente options, la première READ vous permet de mettre le FlipperZero en mode écoute, il va dès lors scanner la fréquence définie à la recherche de signal recevable.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MenuSubGHz.png">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/SubGHzRead.png">
 </p>
@@ -48,7 +48,7 @@ Options :
 ## Read Raw :
 Ici vous avec la possibilité d’enregistrer des fréquences dont les protocoles ou la provenance n’est pas connue par le flipper. Ce dernier va alors enregistrer l’intégralité des données reçue dans un fichier dit : brut (Raw).
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MenuSubGHzRaw.png">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MainSubGHzReadRaw.png">
 </p>
@@ -73,7 +73,7 @@ Options :
 Une fois vos fréquence lue et sauvegardées, vous avez la possibilité de les émettre via l’onglet SAVED, naviguez simplement jusqu’à votre fichier et pressez centre. 
 Vous arriverez sur un menu d’émission. 
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MenuSubGHzSaved.png">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MenuSubGHzSavedSelection.png">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MainSubGHzSaved.png">
@@ -98,7 +98,7 @@ Vous arriverez sur un menu d’émission.
 ## Add Manually :
 Vous permet l’ajout de protocoles supplémentaires à votre module SubGHz.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MenuSubGHzAddManually.png">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MenuSubGHzAddManualySelection.png">
 </p>
@@ -108,14 +108,14 @@ Vous permet l’ajout de protocoles supplémentaires à votre module SubGHz.
 ## Frequency Analyzer :
 Dans l’onglet Frequency Analyzer, votre flipper se met à écouter toute la plage de fréquence disponible. Il vous affichera les signaux les plus Puisant/Compréhensible dans les petit placeholder « ---.--- MHz ». 
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MainSubGHzFrequencyAnalyzer.png">
 </p>
 
 Vous avez la possibilité de changer la tolérance de votre flipper via le RSSI (Threshold) pour capter des signaux plus ou moins puissants en appuyant sur la flèche de gauche ou de droite.<br>
 Une fois le signal capté et placé dans le placeholder, vous pouvez naviguer entre vos détections avec les boutons haut et bas.<br> Un clic au centre sur la fréquence vous ouvre en mode READ avec la fréquence analysée.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MainSubGHzFrequencyAnalyzerRedirection.png">
 </p>
 
@@ -123,7 +123,7 @@ Une fois le signal capté et placé dans le placeholder, vous pouvez naviguer en
 
 ## Radio Settings :
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/Miiraak/FlipperZeroFR/blob/main/.asset/Info-doc-wiki/SubGHz/MenuSubGHzRadioSettings.png">
 </p>
 
