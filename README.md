@@ -54,7 +54,7 @@ Contient aussi des fichier en liens direct avec le firmware comme les asset_pack
 
 </details> 
 
-- Je placerai ici mes créations qui pourrai potentielement être intéréssante pour vous. Ou divers truc que j'aurai crée.
+- Je placerai ici mes créations qui pourraient potentiellement être intéréssantes pour vous. Ou divers trucs que j'aurai crée.
 
 <details>
   <summary><a href="Ressources">Ressources</a></summary>
