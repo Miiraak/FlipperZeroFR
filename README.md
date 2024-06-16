@@ -76,10 +76,14 @@ Fichier : Sub-GHz, Infrarouge, payloads, jamming etc...
 ---
    
 !!! IN WORK !!!
-- Tri des fichier locaux
-- Renommage des fichiers
-- Suppression des fichiers indésirables/Non fonctionnel
-- Suppression des fichiers double
-- Organisation de l'arborescence
+- Apprentissage C
+- Tri des fichier locaux.
+- Renommage des fichiers.
+- Suppression des fichiers indésirables/Non fonctionnel.
+- Suppression des fichiers double.
+- Correction de script.
+- Création de Script.
+- Documentation création d'application.
+- Organisation de l'arborescence.
 
 ---
