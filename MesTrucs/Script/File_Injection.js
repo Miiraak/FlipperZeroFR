@@ -19,13 +19,17 @@
 // ########################################################################################
 
 print("__Activation des modules__")
-let stockage = "/ext/apps_data/mass_storage/Infiltration.img";
+// you can change this with your .img name
+let stockage = "/ext/apps_data/mass_storage/Infiltration.img"; 
 let badusb = require("badusb");
 let usbdisk = require("usbdisk");
-let layout = "fr-CH";
 
+// You can change this with your layout
+let layout = "fr-CH"; 
+
+// You can change this with custom vid/pid and name
 print("__Parametrage du layout__")
-badusb.setup({ vid: 0x046D, pid: 0xc33f, mfr_name: "Logitec, Inc",
+badusb.setup({ vid: 0x046D, pid: 0xc33f, mfr_name: "Logitec, Inc", 
 prod_name: "Keyboard", layout_path: "/ext/badusb/assets/layouts/" + layout + ".kl" });
 
 print("Recherche d'hote...");
