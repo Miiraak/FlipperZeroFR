@@ -4,18 +4,19 @@
 // #                ▓██▒▀█▀ ██▒▓██▒▓██▒▓██ ▒ ██▒▒████▄   ▒████▄     ██▄█▒                 |
 // #                ▓██    ▓██░▒██▒▒██▒▓██ ░▄█ ▒▒██  ▀█▄ ▒██  ▀█▄  ▓███▄░                 |
 // #                ▒██    ▒██ ░██░░██░▒██▀▀█▄  ░██▄▄▄▄██░██▄▄▄▄██ ▓██ █▄                 |
-// #                ▒██▒   ░██▒░██░░██░░██▓ ▒██▒ ▓█   ▓██▒▓█   ▓██▒▒██▒ █▄                | 
+// #                ▒██▒   ░██▒░██░░██░░██▓ ▒██▒ ▓█   ▓██▒▓█   ▓██▒▒██▒ █▄                |
 // #                ░ ▒░   ░  ░░▓  ░▓  ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░▒▒   ▓▒█░▒ ▒▒ ▓▒                |
 // #                ░  ░      ░ ▒ ░ ▒ ░  ░▒ ░ ▒░  ▒   ▒▒ ░ ▒   ▒▒ ░░ ░▒ ▒░                |
 // #                ░      ░    ▒ ░ ▒ ░  ░░   ░   ░   ▒    ░   ▒   ░ ░░ ░                 |
-// #                       ░    ░   ░     ░           ░  ░     ░  ░░  ░                   |      
+// #                       ░    ░   ░     ░           ░  ░     ░  ░░  ░                   |
 // #                                                                                      |
 // #     Title        : FileInjection                                                     |
 // #     Link         : https://github.com/miiraak/                                       |
 // #     Version      : 2.0                                                               |
 // #     Category     : Others                                                            |
 // #     Target       : Windows 10/11                                                     |
-// #     Description  : Copie un fichier du flippper vers le PC                           |
+// #     Description  : Copie un payload.ps1 vers le PC, evitant utilisation de dropbox.  |
+// #                    Permet de bypass les firewall, marche sur les pc offline.         |
 // #                                                                                      |
 // ########################################################################################
 
