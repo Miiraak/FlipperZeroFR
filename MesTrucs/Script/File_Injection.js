@@ -19,7 +19,7 @@
 // ########################################################################################
 
 print("__Activation des modules__")
-// you can change this with your .img name
+// you can change this with your .img name (if not, create mass storage .img named Infliltration)
 let stockage = "/ext/apps_data/mass_storage/Infiltration.img"; 
 let badusb = require("badusb");
 let usbdisk = require("usbdisk");
