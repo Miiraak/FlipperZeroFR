@@ -15,6 +15,7 @@
 // #     Version      : 2.0                                                               |
 // #     Category     : Others                                                            |
 // #     Target       : Windows 10/11                                                     |
+// #     Description  : Copie un fichier du flippper vers le PC                           |
 // #                                                                                      |
 // ########################################################################################
 
