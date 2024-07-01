@@ -1,15 +1,25 @@
-REM ####################################################################################
-REM #                                                                                  |
-REM # Title        : Lunch CMD in admin mode, Windows 11                               |
-REM # Author       : Miiraak                                                           |
-REM # Version      : 1.0                                                               |
-REM # Category     : Execute                                                           |
-REM # Target       : Windows 11                                                        |
-REM #                                                                                  |
-REM ####################################################################################
+REM ########################################################################################
+REM |                                                                                      |
+REM |                 ███▄ ▄███▓ ██▓ ██▓ ██▀███   ▄▄▄      ▄▄▄       ██ ▄█▀                |
+REM |                ▓██▒▀█▀ ██▒▓██▒▓██▒▓██ ▒ ██▒▒████▄   ▒████▄     ██▄█▒                 |
+REM |                ▓██    ▓██░▒██▒▒██▒▓██ ░▄█ ▒▒██  ▀█▄ ▒██  ▀█▄  ▓███▄░                 |
+REM |                ▒██    ▒██ ░██░░██░▒██▀▀█▄  ░██▄▄▄▄██░██▄▄▄▄██ ▓██ █▄                 |
+REM |                ▒██▒   ░██▒░██░░██░░██▓ ▒██▒ ▓█   ▓██▒▓█   ▓██▒▒██▒ █▄                |
+REM |                ░ ▒░   ░  ░░▓  ░▓  ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░▒▒   ▓▒█░▒ ▒▒ ▓▒                |
+REM |                ░  ░      ░ ▒ ░ ▒ ░  ░▒ ░ ▒░  ▒   ▒▒ ░ ▒   ▒▒ ░░ ░▒ ▒░                |
+REM |                ░      ░    ▒ ░ ▒ ░  ░░   ░   ░   ▒    ░   ▒   ░ ░░ ░                 |
+REM |                       ░    ░   ░     ░           ░  ░     ░  ░░  ░                   |
+REM |                                                                                      |
+REM | Title        : PowerShell Admin mode (no UAC prompt)                                 |
+REM | Author       : Miiraak                                                               |
+REM | Version      : v1.0                                                                  |
+REM | Category     : Execute                                                               |
+REM | Target       : Windows 11                                                            |
+REM |                                                                                      |
+REM ########################################################################################
 
 REM Requirements:
-REM     - none
+REM     - Admin Rights
 
 REM Description:
 REM     - Ouvre un cmd en administratateur
