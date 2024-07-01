@@ -20,7 +20,7 @@
 // #                                                                                      |
 // ########################################################################################
 
-// You need to create a .img in mass storage app named Infiltration (or modify the line 27)
+// You need to create a .img in mass storage app named Infiltration (or modify the line 28)
 // You need to change the line 50 with the name of your file.
 
 print("__Activation des modules__")
