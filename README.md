@@ -52,10 +52,11 @@ Contient aussi des fichier en liens direct avec le firmware comme les asset_pack
 
   - [BadUSB](https://github.com/Miiraak/FlipperZeroFR/tree/main/MesTrucs/BadUSB)
   - [Script](https://github.com/Miiraak/FlipperZeroFR/tree/main/MesTrucs/Script)
+  - [Infrarouge](https://github.com/Miiraak/FlipperZeroFR/tree/main/MesTrucs/Infrarouge) 
 
 </details> 
 
-- Je placerai ici mes créations qui pourraient potentiellement être intéréssantes pour vous. Ou divers trucs que j'aurai crée.
+- Je placerai ici mes créations qui pourraient potentiellements être intéréssantes pour vous. Ou divers trucs que j'aurai crée.
 
 <details>
   <summary><a href="Ressources">Ressources</a></summary>
