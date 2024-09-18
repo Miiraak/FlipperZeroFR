@@ -1,7 +1,7 @@
 # FlipperZeroFR
 ###### Regroupement de liens, traductions, scripts etc.… pour FlipperZero
 
-![](https://github.com/Miiraak/FlipperZero/blob/main/.asset/flipperZbanner.png)
+![](https://github.com/Miiraak/FlipperZero/blob/main/.github/asset/flipperZbanner.png)
 
 ## Description :
 

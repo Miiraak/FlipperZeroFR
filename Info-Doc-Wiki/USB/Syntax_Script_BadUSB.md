@@ -142,15 +142,18 @@ Certaines commandes Media peuvent être utilisée avec la commande MEDIA.
 
 ## Wait
 Attend indéfiniment qu'une touche soit pressée
-| Commande            | Paramètre         | Notes                                |
-| :----------------- |:------------------:| ------------------------------------:|
-| WAIT_FOR_BUTTON_PRESS |	Aucun | Attend qu'une touche soit pressée pour continuer le script. | 
-USB device ID
 
+| Commande | Paramètre | Notes |
+| :--- |:---:| ---:|
+| WAIT_FOR_BUTTON_PRESS | Aucun | Attend qu'une touche soit pressée pour continuer le script.
+
+## USB device ID
 Vous pouvez saisir l'ID d'un USB HID. Cette commande devra être la première ligne de votre script.
-| Commande            | Paramètre         | Notes                                |
-| :----------------- |:------------------:| ------------------------------------:|
+
+| Commande | Paramètre | Notes |
+| :--- |:---:| ---:|
 | ID | VID:PID Manufacturer:Product |  | 	
+
 Exemple: ID 1234:abcd Samsung:Galaxy_s3
 
 Le VID et PID sont des code hexadécimales et sont obligatoire. Le fabricant et le produit sont optionnels.
